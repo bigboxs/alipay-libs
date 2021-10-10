@@ -1,0 +1,11 @@
+src/**
+tests/**
+coverage/**
+.babelrc
+.eslint*
+debug.js
+tsconfig.eslint.json
+.travis.yml
+jest.config.js
+tsconfig.json
+LICENSE

@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["node", "jest"],
+    "lib":["es2015"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap":true,
+    "removeComments": true,
+    "declaration": true,
+    "target": "es5",
+    "noUnusedLocals":true,
+    "noUnusedParameters": true,
+    "outDir": "./dist/"
+  },
+  "include": [
+    "src/"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
